@@ -1,0 +1,116 @@
+body {
+  background-color: #1a1f1b;
+}
+
+h1{
+  font-family: "Brush Script M7", cursive;
+  text-align: center;
+  color: white;
+}
+
+h2{
+  font-family: "Brush Script M7", cursive;
+  text-align: center;
+  color: white;
+}
+
+h3{
+  font-family: "Brush Script M7", cursive;
+  text-align: left;
+  color: white;
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+hr {
+  border-top: solid #dbe2dd;
+}
+.topnav {
+  padding: 3.5px 3.5px;
+  float: left;
+  background-color: #dbe2dd;
+  color: #000000;
+  font-family: "Brush Script M7", cursive;
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: left;
+  text-decoration: none;
+  list-style-type: circle;
+}
+
+.topnav a{
+  float: left;
+  display: inline;
+  font-size: 20px;
+  color: black;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+}
+.topnav a:hover {
+  background-color: black;
+  color: white;
+  padding: 8px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  font-family: "Papyrus", fantasy;
+  font-size: 20px;
+  text-align: left;
+  color: white;
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 25px;
+}
+
+caption{
+  text-align: center;
+  font-family: sans-serif;
+}
+a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #5566FF;
+}
+li{
+  font-size: 20px;
+  font-family: "Papyrus", fantasy;
+  color: white;
+  list-style-position: inside;
+}
+div.gallery{
+margin: 1px;
+border: 1px solid #ccc;
+float: left;
+width: 190px;
+}
+
+div.gallery img{
+  width: 100%;
+  height: 100%;
+}
+div.desc{
+  padding: 5px;
+  text-align: center;
+  font-family: "Papyrus", fantasy;
+  color: white;
+}{
+  box-sizing: border-box;
+}
+.responsive{
+  padding: 5 5px;
+  float: right;
+  width: inherit;
